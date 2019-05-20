@@ -23,7 +23,7 @@ import java.util.ArrayList;
 public class OddsFragment extends Fragment {
     private static final String ARG_COLUMN = "column";
     private static final String ARG_ROW = "row";
-    private static final long PERIOD = 2000L;
+    private static final long PERIOD = 10000L;
     private LinearLayout mainLayout;
     private int mColumn;
     private int mRow;
