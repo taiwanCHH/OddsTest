@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.oddstest.MainFragment"
+        android:label="fragment_main">
+        <action
+            android:id="@+id/action_page_odds"
+            app:destination="@id/oddsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/oddsFragment"
+        android:name="com.example.oddstest.OddsFragment"
+        android:label="fragment_odds"/>
+</navigation>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OddsTest</string>
+    <string name="prompt_column">Input Column Number</string>
+    <string name="prompt_row">Input Row Number</string>
+    <string name="error_invalid_column">Column limit 1~10</string>
+    <string name="error_invalid_row">Row limit 1~5</string>
+    <string name="odds_layout">Show odds layout</string>
+    <string name="odds_text">random</string>
+    <string name="btn_text">確認</string>
+</resources>
